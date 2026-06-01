@@ -1,0 +1,61 @@
+Misemiru Web extracted transparent PNG assets
+Total PNG files: 58
+
+01_01_misemiru_web_full_logo_with_tagline.png | row 1, column 1 | misemiru web full logo with tagline
+01_02_storefront_web_logo_mark.png | row 1, column 2 | storefront web logo mark
+01_03_misemiru_web_wordmark.png | row 1, column 3 | misemiru web wordmark
+01_04_gold_free_sample_consult_button.png | row 2, column 1 | gold free sample consult button
+01_05_outline_workflow_button.png | row 2, column 2 | outline workflow button
+01_06_outline_free_sample_consult_button.png | row 2, column 3 | outline free sample consult button
+01_07_one_to_three_days_sample_badge.png | row 3, column 1 | one to three days sample badge
+01_08_mobile_friendly_badge.png | row 3, column 2 | mobile friendly badge
+01_09_no_pushy_sales_badge.png | row 3, column 3 | no pushy sales badge
+02_01_storefront_icon.png | row 1, column 1 | storefront icon
+02_02_smartphone_icon.png | row 1, column 2 | smartphone icon
+02_03_consultation_question_icon.png | row 1, column 3 | consultation question icon
+02_04_calendar_icon.png | row 2, column 1 | calendar icon
+02_05_yen_price_icon.png | row 2, column 2 | yen price icon
+02_06_desktop_website_icon.png | row 2, column 3 | desktop website icon
+02_07_heart_icon.png | row 3, column 1 | heart icon
+02_08_sparkle_icon.png | row 3, column 2 | sparkle icon
+02_09_chat_bubbles_icon.png | row 3, column 3 | chat bubbles icon
+03_01_cafe_laptop_mockup.png | row 1, column 1 | cafe laptop mockup
+03_02_hair_salon_laptop_mockup.png | row 1, column 2 | hair salon laptop mockup
+03_03_trimming_laptop_mockup.png | row 1, column 3 | trimming laptop mockup
+03_04_seitai_laptop_mockup.png | row 2, column 1 | seitai laptop mockup
+03_05_flower_shop_laptop_mockup.png | row 2, column 2 | flower shop laptop mockup
+03_06_cafe_mobile_mockup.png | row 2, column 3 | cafe mobile mockup
+03_07_hair_salon_mobile_mockup.png | row 3, column 1 | hair salon mobile mockup
+03_08_seitai_mobile_mockup.png | row 3, column 2 | seitai mobile mockup
+03_09_flower_shop_mobile_mockup.png | row 3, column 3 | flower shop mobile mockup
+04_01_cafe_laptop_mockup_large.png | row 1, column 1 | cafe laptop mockup large
+04_02_cafe_mobile_mockup_large.png | row 1, column 2 | cafe mobile mockup large
+04_03_cafe_responsive_laptop_mobile_mockup.png | row 1, column 3 | cafe responsive laptop mobile mockup
+04_04_cafe_interior_photo.png | row 2, column 1 | cafe interior photo
+04_05_salon_interior_photo.png | row 2, column 2 | salon interior photo
+04_06_dog_trimming_photo.png | row 2, column 3 | dog trimming photo
+04_07_flower_arrangement_photo.png | row 3, column 1 | flower arrangement photo
+04_08_note_writing_photo.png | row 3, column 2 | note writing photo
+04_09_potted_plant_photo.png | row 3, column 3 | potted plant photo
+05_01_step_number_one_circle.png | row 1, column 1 | step number one circle
+05_02_step_number_two_circle.png | row 1, column 2 | step number two circle
+05_03_step_number_three_circle.png | row 1, column 3 | step number three circle
+05_04_step_number_four_circle.png | row 2, column 1 | step number four circle
+05_05_limited_first_three_companies_label.png | row 2, column 2 | limited first three companies label
+05_06_gold_divider_line.png | row 2, column 3 | gold divider line
+05_07_vertical_divider_line.png | row 3, column 1 | vertical divider line
+05_08_dark_navy_pill_shape.png | row 3, column 2 | dark navy pill shape
+05_09_rounded_shadow_card.png | row 3, column 3 | rounded shadow card
+06_01_storefront_logo_mark_separate.png | row 1, column 1 | storefront logo mark separate
+06_02_misemiru_web_wordmark_separate.png | row 1, column 2 | misemiru web wordmark separate
+07_01_checklist_icon.png | row 1, column 1 | checklist icon
+07_02_clock_icon.png | row 1, column 2 | clock icon
+07_03_yen_coin_icon.png | row 1, column 3 | yen coin icon
+07_04_security_shield_check_icon.png | row 2, column 1 | security shield check icon
+07_05_chat_bubbles_gold_icon.png | row 2, column 2 | chat bubbles gold icon
+07_06_desktop_website_gold_icon.png | row 2, column 3 | desktop website gold icon
+07_07_document_list_icon.png | row 3, column 1 | document list icon
+07_08_rocket_launch_icon.png | row 3, column 2 | rocket launch icon
+07_09_arrow_right_icon.png | row 3, column 3 | arrow right icon
+08_01_gold_free_sample_consult_button_wide.png | row 1, column 1 | gold free sample consult button wide
+08_02_outline_workflow_button_with_phone_wide.png | row 1, column 2 | outline workflow button with phone wide
