@@ -203,6 +203,7 @@
   .flow-card-title{font-family:var(--serif);font-size:17px;font-weight:700;color:#1a2e3f;line-height:1.45;margin-bottom:6px;}
   .flow-badge{display:inline-block;background:#0c2230;color:#fff;font-size:11px;font-weight:600;padding:3px 14px;border-radius:20px;margin-bottom:8px;letter-spacing:.04em;}
   .flow-badge--anshi{position:absolute;top:14px;right:14px;background:#f0f2f4;color:#6b7b88;font-size:10px;font-weight:600;padding:3px 10px;border-radius:10px;letter-spacing:.03em;border:1px solid #e0e5e9;}
+  .flow-badge--anshi-sp{display:none;}
   .flow-desc{font-size:13px;color:#6b7b88;line-height:1.85;margin:0;}
   .flow-assurance{display:flex;align-items:center;gap:18px;background:var(--cream);border:1.5px solid #e4e1d9;border-radius:14px;padding:20px 26px;margin-top:36px;transform:translateX(70px);opacity:0;transition:transform .6s cubic-bezier(.25,.46,.45,.94),opacity .6s ease;}
   .flow-assurance.is-visible{transform:translateX(0);opacity:1;}
@@ -408,12 +409,17 @@
     .flow-card.is-visible:hover{transform:none;box-shadow:0 2px 8px rgba(12,34,48,.06);}
     .flow-icon{display:none;}
     .flow-card-inner{display:block;padding:0;gap:0;}
-    .flow-card-title{padding:13px 16px;font-size:13.5px;margin-bottom:0;justify-content:flex-start;gap:10px;}
+    .flow-body{display:block;padding:0;}
+    .flow-card-title{display:flex;align-items:center;padding:13px 16px;font-size:13.5px;margin-bottom:0;gap:8px;flex-wrap:nowrap;}
     .flow-card-title::before{content:counter(flow-step-num);display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;border-radius:50%;background:var(--navy);color:#fff;font-size:11px;font-family:var(--latin);font-weight:700;flex-shrink:0;}
-    .flow-card-title::after{margin-left:auto;}
-    .flow-badge{max-height:0;overflow:hidden;opacity:0;margin:0;padding:0 10px;transition:max-height .3s ease,opacity .25s ease,margin .25s ease;}
-    .flow-card.is-expanded .flow-badge{max-height:30px;opacity:1;margin:0 16px 8px;padding:2px 10px;font-size:10px;}
-    .flow-badge--anshi{position:static;display:block;font-size:10px;padding:4px 12px;margin:10px 16px -2px;border-radius:8px;}
+    .flow-card-title::after{content:"+";font-size:20px;color:var(--navy);font-weight:300;font-family:var(--sans);flex-shrink:0;transition:transform .25s ease;line-height:1;margin-left:auto;}
+    .flow-card.is-expanded .flow-card-title::after{transform:rotate(45deg);}
+    .flow-badge{max-height:none;overflow:visible;opacity:1;margin:0;margin-left:auto;padding:2px 10px;font-size:10px;flex-shrink:0;white-space:nowrap;}
+    .flow-card-title:has(.flow-badge)::after{margin-left:8px;}
+    .flow-card.is-expanded .flow-badge{margin:0;margin-left:auto;padding:2px 10px;font-size:10px;}
+    .flow-badge--anshi-pc{display:none;}
+    .flow-badge--anshi-sp{display:inline-flex;position:static;font-size:10px;padding:3px 10px;border-radius:8px;background:#f0f2f4;color:#6b7b88;border:1px solid #e0e5e9;font-weight:600;letter-spacing:.03em;margin-left:auto;white-space:nowrap;}
+    .flow-card-title:has(.flow-badge--anshi-sp)::after{margin-left:8px;}
     .flow-desc{font-size:12px;padding:0 16px;line-height:1.7;}
     .flow-card.is-expanded .flow-desc{padding-bottom:14px;}
     /* assurance horizontal compact */
