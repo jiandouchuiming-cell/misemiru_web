@@ -257,30 +257,21 @@
   .flow-assurance-desc{font-size:12px;color:#6b7b88;line-height:1.7;margin:0;}
   
   
-  /* ---------- profile / team ---------- */
-  .sec-profile{background:var(--cream);padding:90px 0 100px;}
-  .sec-profile .sec-head{margin-bottom:16px;}
+  /* ---------- founder profile ---------- */
+  .sec-profile{background:var(--cream);padding:64px 0 70px;}
+  .sec-profile .sec-head{margin-bottom:28px;}
   .prof-ornament{display:block;color:var(--gold);font-family:var(--latin);font-size:13px;letter-spacing:.4em;margin-bottom:14px;}
-  .team-intro{text-align:center;font-size:14px;color:#5a7080;line-height:1.85;max-width:540px;margin:0 auto 52px;letter-spacing:.03em;}
-  .team-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-7);max-width:820px;margin:0 auto;}
-  .member-card{background:#f8f9fb;border:1.5px solid #e4eaee;border-radius:var(--radius-xl);overflow:hidden;transition:transform var(--dur-base) var(--ease-standard),box-shadow var(--dur-base) var(--ease-standard),border-color var(--dur-base) var(--ease-standard);}
-  .member-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:#c8d4de;}
-  .member-photo-area{aspect-ratio:4/5;background:linear-gradient(160deg,#e8eef2 0%,#d4e0e8 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#8a9aaa;}
-  .member-photo-area svg{width:68px;height:68px;opacity:.45;}
-  .member-photo-area small{font-size:10px;letter-spacing:.12em;}
-  .member-photo-area img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;}
-  .member-body{padding:22px 24px 28px;}
-  .member-role-tag{display:inline-block;font-size:11px;font-weight:700;color:var(--gold);background:rgba(189,150,90,.10);border:1px solid rgba(189,150,90,.30);border-radius:6px;padding:3px 12px;letter-spacing:.06em;margin-bottom:10px;}
-  .member-name{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--navy);letter-spacing:.07em;margin-bottom:14px;line-height:1.2;}
-  .member-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px;}
-  .member-tag{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;color:#5a7080;background:#edf1f4;border-radius:20px;padding:4px 13px;letter-spacing:.02em;}
-  .member-tag svg{width:13px;height:13px;flex-shrink:0;}
-  .member-desc{font-size:13.5px;color:#3d5263;line-height:1.9;margin:0;}
-  .profile-cta-wrap{text-align:center;margin-top:52px;}
-  @media(max-width:640px){
-    .team-grid{grid-template-columns:1fr;max-width:380px;margin:0 auto;}
-    .member-photo-area{aspect-ratio:3/2;}
-  }
+  .founder-card{display:grid;grid-template-columns:minmax(220px,.78fr) minmax(0,1.22fr);gap:34px;max-width:820px;margin:0 auto;padding:30px 36px;background:#f8f9fb;border:1.5px solid #e4eaee;border-radius:var(--radius-xl);box-shadow:0 3px 16px rgba(20,40,60,.05);}
+  .founder-identity{padding-right:34px;border-right:1px solid #dbe3e8;}
+  .founder-role{display:inline-block;font-size:11px;font-weight:700;color:var(--gold);background:rgba(189,150,90,.10);border:1px solid rgba(189,150,90,.30);border-radius:6px;padding:3px 11px;letter-spacing:.05em;margin-bottom:12px;}
+  .founder-name{font-family:var(--serif);font-size:28px;font-weight:700;color:var(--navy);letter-spacing:.07em;line-height:1.2;margin:0 0 14px;}
+  .founder-lead{font-family:var(--serif);font-size:16px;font-weight:600;color:var(--navy-100);line-height:1.75;margin:0;}
+  .founder-content{display:flex;flex-direction:column;justify-content:center;min-width:0;}
+  .founder-message{font-size:13.5px;color:#3d5263;line-height:1.9;margin:0 0 18px;}
+  .founder-specialties{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0;}
+  .founder-specialties li{font-size:11.5px;color:#5a7080;background:#edf1f4;border-radius:20px;padding:5px 13px;letter-spacing:.02em;}
+  .founder-support{font-size:12px;color:#5a7080;line-height:1.75;margin:18px 0 0;padding-top:16px;border-top:1px solid #dbe3e8;}
+  .founder-support span{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:.08em;margin-right:10px;}
 
 /* ---------- final cta / contact ---------- */
   .final{position:relative;color:#fff;overflow:hidden;}
@@ -475,25 +466,18 @@
     .flow-assurance-icon{width:32px;height:32px;}
     .flow-assurance-title{font-size:13px;margin-bottom:2px;}
     .flow-assurance-desc{font-size:11.5px;}
-    /* member cards compact horizontal */
-    .team-intro{margin-bottom:24px;font-size:13px;}
-    .team-grid{grid-template-columns:1fr;gap:10px;max-width:100%;}
-    .member-card{display:flex;flex-direction:row;align-items:flex-start;gap:14px;padding:14px 16px;border-radius:14px;cursor:pointer;overflow:hidden;transition:background var(--dur-fast) var(--ease-standard);}
-    .member-card:hover{transform:none;box-shadow:none;}
-    .member-card:active{background:#eef1f4;}
-    .member-card::after{content:"+";align-self:flex-start;margin-top:2px;font-size:22px;color:var(--navy);font-weight:300;font-family:var(--sans);flex-shrink:0;transition:transform .25s ease;line-height:1;}
-    .member-card.is-expanded::after{transform:rotate(45deg);}
-    .member-photo-area{width:64px;height:64px;aspect-ratio:1/1;border-radius:50%;flex-shrink:0;overflow:hidden;}
-    .member-photo-area svg{width:36px;height:36px;}
-    .member-photo-area small{display:none;}
-    .member-body{flex:1;padding:0;min-width:0;}
-    .member-role-tag{font-size:10px;margin-bottom:6px;}
-    .member-name{font-size:16px;margin-bottom:8px;letter-spacing:.04em;}
-    .member-tags{margin-bottom:0;gap:5px;}
-    .member-tag{font-size:10.5px;padding:3px 10px;}
-    .member-desc{max-height:0;overflow:hidden;opacity:0;margin-top:0;font-size:12.5px;line-height:1.75;transition:max-height .35s ease,opacity .3s ease,margin-top .25s ease;}
-    .member-card.is-expanded .member-desc{max-height:200px;opacity:1;margin-top:10px;}
-    .profile-cta-wrap{margin-top:28px;}
+    /* founder profile */
+    .sec-profile{padding:54px 0 58px;}
+    .sec-profile .sec-head{margin-bottom:22px;}
+    .founder-card{grid-template-columns:1fr;gap:20px;max-width:560px;padding:24px 22px;}
+    .founder-identity{padding:0 0 20px;border-right:0;border-bottom:1px solid #dbe3e8;}
+    .founder-role{font-size:10px;margin-bottom:8px;}
+    .founder-name{font-size:24px;margin-bottom:9px;}
+    .founder-lead{font-size:15px;line-height:1.65;}
+    .founder-message{font-size:13px;line-height:1.8;margin-bottom:15px;}
+    .founder-specialties{gap:6px;}
+    .founder-specialties li{font-size:10.5px;padding:4px 10px;}
+    .founder-support{font-size:11.5px;margin-top:15px;padding-top:14px;}
     /* faq mobile */
     .sec-faq{padding:60px 0 70px;}
     .faq-head{margin-bottom:24px;}
